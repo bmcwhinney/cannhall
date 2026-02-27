@@ -14,7 +14,7 @@
     <meta property="og:title" content="Cann Hall Methodist Church | Leytonstone">
     <meta property="og:description" content="A welcoming Methodist church community in Leytonstone, East London. Full website coming soon.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="image_0.png">
+    <meta property="og:image" content="image_desktop.jpg">
 
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⛪</text></svg>">
     
@@ -34,7 +34,7 @@
       },
       "description": "A welcoming Methodist church and community hub located in Leytonstone, London.",
       "denomination": "Methodist",
-      "logo": "image_0.png"
+      "logo": "image_desktop.jpg"
     }
     </script>
 
@@ -237,7 +237,24 @@
             </div>
 
             <div class="image-col">
-                <img src="image_0.png" alt="Illustration of Cann Hall Methodist Church" class="featured-image">
+                <picture>
+                    <source
+                        type="image/webp"
+                        srcset="image_mobile.webp 480w, image_desktop.webp 800w"
+                        sizes="(max-width: 900px) 100vw, 50vw">
+                    <source
+                        type="image/jpeg"
+                        srcset="image_mobile.jpg 480w, image_desktop.jpg 800w"
+                        sizes="(max-width: 900px) 100vw, 50vw">
+                    <img
+                        src="image_desktop.jpg"
+                        alt="Illustration of Cann Hall Methodist Church"
+                        class="featured-image"
+                        width="800"
+                        height="605"
+                        loading="eager"
+                        decoding="async">
+                </picture>
             </div>
 
         </main>
