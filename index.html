@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#c51718">
+    
+    <title>Cann Hall Methodist Church | Leytonstone, London</title>
+    <meta name="description" content="Welcome to Cann Hall Methodist Church in Leytonstone, East London. Join our welcoming community. Our full website is currently under construction and coming soon.">
+    <meta name="keywords" content="Cann Hall Methodist Church, church Leytonstone, Methodist church London, E11 church, Cann Hall Road, Christian community East London">
+    <link rel="canonical" href="https://cannhall.netlify.app">
+
+    <meta property="og:title" content="Cann Hall Methodist Church | Leytonstone">
+    <meta property="og:description" content="A welcoming Methodist church community in Leytonstone, East London. Full website coming soon.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="image_0.png">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⛪</text></svg>">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Church",
+      "name": "Cann Hall Methodist Church",
+      "url": "https://cannhall.netlify.app",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "296 Cann Hall Road",
+        "addressLocality": "Leytonstone",
+        "addressRegion": "London",
+        "postalCode": "E11 3NN",
+        "addressCountry": "UK"
+      },
+      "description": "A welcoming Methodist church and community hub located in Leytonstone, London.",
+      "denomination": "Methodist",
+      "logo": "image_0.png"
+    }
+    </script>
+
+    <style>
+        /* HTML5 Semantic Elements */
+        article, aside, details, figcaption, figure, footer, header, main, nav, section { display: block; }
+
+        /* Official Methodist Brand Variables */
+        :root {
+            --methodist-red: #c51718; /* Official Pantone 186 Hex */
+            --dark-text: #222222;
+            --body-text: #444444;
+            --bg-color: #ffffff;
+            --light-grey: #f4f4f4;
+            --border-grey: #e0e0e0;
+        }
+
+        html {
+            box-sizing: border-box;
+            -webkit-text-size-adjust: 100%;
+            height: 100%;
+        }
+
+        *, *:before, *:after { box-sizing: inherit; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            /* Official Methodist font is Franklin Gothic, with clean fallbacks */
+            font-family: "Franklin Gothic Medium", "Franklin Gothic Book", "ITC Franklin Gothic", Arial, sans-serif;
+            text-rendering: optimizeLegibility;
+            color: var(--body-text);
+            background-color: var(--bg-color);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Top Brand Accent Line */
+        .brand-bar {
+            height: 8px;
+            width: 100%;
+            background-color: var(--methodist-red);
+        }
+
+        /* Main App Wrapper */
+        .page-wrapper {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            padding: 3rem 2rem;
+        }
+
+        /* Split Screen Layout for Desktop */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            flex: 1;
+        }
+
+        /* Image Styling - Clean and Crisp */
+        .image-col {
+            width: 100%;
+        }
+
+        .featured-image {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            display: block;
+            border: 1px solid var(--border-grey);
+        }
+
+        /* Typography */
+        h1, h2, h3 {
+            color: var(--dark-text);
+            font-weight: 600;
+            line-height: 1.1;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            letter-spacing: -0.5px;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--body-text);
+            margin: 0 0 2.5rem 0;
+            font-weight: normal;
+        }
+
+        /* Status Box - Modern Alert Style */
+        .status-box {
+            background-color: var(--light-grey);
+            border-left: 6px solid var(--methodist-red);
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .status-box h2 {
+            font-size: 1.5rem;
+            margin: 0 0 1rem 0;
+            color: var(--methodist-red);
+        }
+
+        .status-box p { 
+            line-height: 1.6; 
+            margin: 0; 
+            font-size: 1.1rem;
+        }
+
+        /* Address Section */
+        .info-section {
+            padding-top: 1rem;
+        }
+
+        .info-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--dark-text);
+        }
+
+        address {
+            font-style: normal;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin: 0;
+        }
+
+        /* Minimalist Footer */
+        footer {
+            text-align: left;
+            font-size: 0.9rem;
+            color: #777;
+            padding-top: 3rem;
+            margin-top: auto;
+            border-top: 1px solid var(--border-grey);
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 900px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+            }
+            .page-wrapper {
+                padding: 2rem 1.5rem;
+            }
+            h1 { font-size: 2.4rem; }
+            .image-col { order: -1; /* Forces image to top on mobile */ }
+        }
+
+        @media screen and (max-width: 480px) {
+            h1 { font-size: 2rem; }
+            .status-box { padding: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="brand-bar"></div>
+
+    <div class="page-wrapper">
+        
+        <main class="content-grid">
+            
+            <div class="text-col">
+                <header>
+                    <h1>Cann Hall Methodist Church</h1>
+                    <p class="subtitle">Leytonstone, London</p>
+                </header>
+
+                <div class="status-box">
+                    <h2>Full Site Coming Soon</h2>
+                    <p>We are currently building a new digital home for our church family and local community. Please check back shortly for updates, service times, and events.</p>
+                </div>
+
+                <div class="info-section">
+                    <h3>Visit Us</h3>
+                    <address>
+                        <strong>Address:</strong><br>
+                        296 Cann Hall Road<br>
+                        Leytonstone, London<br>
+                        E11 3NN<br>
+                        United Kingdom
+                    </address>
+                </div>
+            </div>
+
+            <div class="image-col">
+                <img src="image_0.png" alt="Illustration of Cann Hall Methodist Church" class="featured-image">
+            </div>
+
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Cann Hall Methodist Church. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
