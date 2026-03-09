@@ -34,7 +34,8 @@
       },
       "description": "A welcoming Methodist church and community hub located in Leytonstone, London.",
       "denomination": "Methodist",
-      "logo": "image_desktop.jpg"
+      "logo": "image_desktop.jpg",
+      "openingHours": "Su 09:00-10:00"
     }
     </script>
 
@@ -176,6 +177,35 @@
             margin: 0;
         }
 
+        .service-time {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--methodist-red);
+            margin: 0;
+        }
+
+        .contact-name {
+            font-weight: 600;
+            color: var(--dark-text);
+            margin: 0.5rem 0 0.25rem 0;
+        }
+
+        .contact-link {
+            color: var(--methodist-red);
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        .info-section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin: 0;
+        }
+
         /* Minimalist Footer */
         footer {
             text-align: left;
@@ -225,14 +255,30 @@
                 </div>
 
                 <div class="info-section">
+                    <h3>Sunday Service</h3>
+                    <p class="service-time">9:00 am</p>
+                </div>
+
+                <div class="info-section">
                     <h3>Visit Us</h3>
                     <address>
-                        <strong>Address:</strong><br>
                         296 Cann Hall Road<br>
                         Leytonstone, London<br>
                         E11 3NN<br>
                         United Kingdom
                     </address>
+                </div>
+
+                <div class="info-section">
+                    <h3>Enquiries</h3>
+                    <p>For any enquiries, please contact:</p>
+                    <p class="contact-name">Mike Long</p>
+                    <p>
+                        <a href="tel:+447458002274" class="contact-link">07458 002 274</a>
+                    </p>
+                    <p>
+                        <a href="mailto:enquiries@cannhallchurch.org" class="contact-link">enquiries@cannhallchurch.org</a>
+                    </p>
                 </div>
             </div>
 
